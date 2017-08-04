@@ -16,8 +16,7 @@ function showProducts(data) {
 	for (let i = 0; i < products.length; i++) {
 
 		productList.innerHTML += `<li><h5>${products[i].name}</h5></li>
-		 						<li id="price"><h5>${products[i].price}</h5></li>
-		 						`;
+		 			  <li id="price"><h5>${products[i].price}</h5></li>`;
 
 		if (products[i].category_id === 1) {
 			productList.innerHTML += `<li><h5>${departments[0].name}</h5></li><br>`;
